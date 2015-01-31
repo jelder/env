@@ -1,4 +1,5 @@
 # env
+[![CircleCI](https://img.shields.io/circleci/project/jelder/env.svg?style=flat-square)](https://circleci.com/gh/jelder/env)
 
 A convenience wrapper around `os.Environ` and `os.GetEnv`. Use `ENV[]` like you do in other languages, plus safety, default values, and typesafe getters.
 

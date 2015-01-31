@@ -1,8 +1,3 @@
-# env
-
-A convenience wrapper around `os.Environ` and `os.GetEnv`. Use `ENV[]` like you do in other languages, plus safety, default values, and typesafe getters.
-
-```go
 package main
 
 import (
@@ -22,4 +17,3 @@ func main() {
 		ENV.GetBool("MY_OPTION"),
 	)
 }
-```

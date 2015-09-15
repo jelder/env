@@ -5,8 +5,6 @@ import (
 	. "github.com/jelder/env"
 )
 
-var ENV EnvMap
-
 func main() {
 	ENV = MustLoadEnv()
 	fmt.Println("Hello,", ENV["USER"])

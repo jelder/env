@@ -9,6 +9,10 @@ import (
 
 type EnvMap map[string]string
 
+var (
+	ENV = MustLoadEnv()
+)
+
 func MustLoadEnv() (env EnvMap) {
 	env, err := LoadEnvArrayString(os.Environ())
 	if err != nil {

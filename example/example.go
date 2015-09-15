@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	. "github.com/jelder/env"
+	. "github.com/jelder/goenv"
 )
 
 func main() {
